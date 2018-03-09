@@ -1,0 +1,22 @@
+uuid: c0efc0d5-62a7-4d20-8b09-760b37d49892
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.motorbike
+  module:
+    - text
+id: node.motorbike.body
+field_name: body
+entity_type: node
+bundle: motorbike
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

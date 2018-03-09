@@ -1,0 +1,28 @@
+uuid: bfe4f465-113c-459d-a312-133d0e36c0db
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.motorbike.body
+    - node.type.motorbike
+  module:
+    - text
+    - user
+id: node.motorbike.teaser
+targetEntityType: node
+bundle: motorbike
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,9 @@
+uuid: 4e0f0a43-36f5-4fd4-9faf-43b3366a2f0f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Moto goods'
+vid: moto_goods
+description: 'Moto goods'
+hierarchy: 0
+weight: 0
