@@ -1,0 +1,7 @@
+bike.content:
+  path: '/bike'
+  defaults:
+    _controller: 'Drupal\bike\Controller\BikeController::content'
+    _title: 'Bike Category'
+  requirements:
+    _permission: 'access content'

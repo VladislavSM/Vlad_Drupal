@@ -1,0 +1,6 @@
+bike.admin:
+  title: 'Bike module settings'
+  description: 'A basic module to return bike categogory'
+  parent: system.admin_config_development
+  route_name: bike.content
+  weight: 100
